@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRID</title>
+    <link rel="stylesheet" href="styles/grid.css">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="gs_container">
+        <h1>Grid systém</h1>
+        <section class="gs_row gs_row-between" style="margin-bottom: 2em;">
+            <div class="gs_col gs_col-lg-12 gs_col-xs-12 gs_col-sm-12 gs_col-md-12" style="background: #e0e0e0; padding: 1em;">
+                <p>Hlavička</p>
+            </div>
+            <div class="gs_col gs_col-lg-2 gs_col-xs-12" style="background: #c0c0c0; padding: 1em;">
+                <p>Meničko</p>
+                <nav>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                </nav>
+            </div>
+            <div class="gs_col gs_col-lg-10 gs_col-xs-12" style="background: #a0a0a0; padding: 1em;">
+                <h2>Obsah</h2>
+                <p>Veeela vela obsahuuuu...</p>
+            </div>
+            <div class="gs_col gs_col-lg-12 gs_col-xs-12 gs_col-sm-12 gs_col-md-12" style="background: #7e7e7e; padding: 1em;">
+                <footer>
+                    foo
+                </footer>
+            </div>
+        </section>
+    </div>
+
+    <script src="engine.js"></script>
+</body>
+
+</html>

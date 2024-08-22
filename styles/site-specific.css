@@ -1,0 +1,126 @@
+header {
+  align-items: center;
+  text-align: center;
+  padding: 1em 2em;
+  background-color: var(--dark-green);
+
+  .logo {
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    justify-content: center;
+
+    img {
+      width: 36px;
+      filter: invert(100%);
+    }
+  }
+
+  p {
+    color: var(--white);
+
+    .mail {
+      color: var(--white);
+      font-weight: bold;
+      text-decoration: none;
+    }
+  }
+}
+
+.section_title {
+  margin-top: 2em;
+  font-size: 2rem;
+  color: var(--dark-green-light);
+}
+
+.section_teas {
+  padding: 2em;
+  margin: 0 auto;
+  max-width: 1440px;
+  margin-top: 2em;
+  margin-bottom: 3.5em;
+
+  .info_teas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+
+    .action_teas {
+      padding: 1em;
+      border-top: 1px solid var(--light-green);
+      border-bottom: 1px solid var(--light-green);
+      margin-top: 1em;
+      margin-bottom: 1em;
+
+      .buy_button {
+        padding: 0.5em 1em;
+        border: none;
+        border-radius: 4px;
+        background-color: var(--light-green);
+        color: var(--black);
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+
+      .gs_col {
+        display: flex;
+        align-items: center;
+      }
+
+      .buy_button:hover {
+        background-color: var(--dark-green);
+        color: var(--white);
+      }
+
+      .price {
+        font-weight: bold;
+        color: var(--light-green);
+      }
+    }
+
+    img {
+      object-fit: cover;
+      width: 270px;
+      height: 300px;
+      margin: 0 auto;
+      box-shadow: 4px 4px 8px var(--dark-green-shadow);
+    }
+
+    h3 {
+      color: var(--dark-green-light);
+    }
+
+    p {
+      max-width: 270px;
+      font-size: 1.05rem;
+    }
+  }
+}
+
+footer {
+  background-color: var(--dark-green);
+  color: var(--white);
+  padding: 2em;
+}
+
+.footer_item {
+  display: grid;
+  place-content: baseline center;
+
+  h4 {
+    margin-bottom: 0.5em;
+  }
+
+  ul li {
+    list-style-type: none;
+  }
+
+  ul li a {
+    color: var(--white);
+    text-decoration: none;
+    font-size: 0.75rem;
+  }
+}
